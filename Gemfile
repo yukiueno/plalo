@@ -31,6 +31,14 @@ gem "mongoid-versioning"
 
 gem 'bson_ext'
 
+gem 'haml-rails'
+gem 'erb2haml'
+
+gem 'backbone-on-rails'
+
+gem 'therubyracer' # javascript runtime。lessをコンパイルするために必要
+gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
+gem 'twitter-bootstrap-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
