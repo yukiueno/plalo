@@ -36,4 +36,11 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  # rserveの起動
+  config.after_initialize do
+    rserve_port = 6311
+    rserve_path = "/usr/local/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rserve-client-0.3.1"
+    system("R CMD #{rserve_path} --RS-port #{rserve_port} --slave")
+  end
 end
