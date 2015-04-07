@@ -39,6 +39,9 @@ gem 'backbone-on-rails'
 gem 'therubyracer' # javascript runtime。lessをコンパイルするために必要
 gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
 gem 'twitter-bootstrap-rails'
+gem 'font-awesome-rails'
+gem 'bootstrap-sass', '2.3.2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
