@@ -56,6 +56,7 @@ gem 'rserve-client', require: 'rserve'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem "heroku-api", "0.3.18" #追記
+gem 'cowsay'
 
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

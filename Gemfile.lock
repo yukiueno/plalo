@@ -102,6 +102,7 @@ GEM
     columnize (0.9.0)
     commonjs (0.2.7)
     connection_pool (2.2.0)
+    cowsay (0.2.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     debug_inspector (0.0.2)
@@ -320,6 +321,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.0)
   capistrano3-unicorn
   coffee-rails (~> 4.1.0)
+  cowsay
   devise
   erb2haml
   font-awesome-rails
