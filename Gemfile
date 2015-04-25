@@ -28,6 +28,9 @@ gem "mongoid", github: "mongoid/mongoid"
 gem "mongoid_paranoia"
 gem "symbolize"
 gem "mongoid-versioning"
+# Mongo on Heroku
+gem "bson"
+gem "moped", github: "mongoid/moped"
 
 gem 'bson_ext'
 

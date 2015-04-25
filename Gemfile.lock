@@ -8,6 +8,15 @@ GIT
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
 
+GIT
+  remote: git://github.com/mongoid/moped.git
+  revision: 10abbf3eac3739368d52d6ae344f5713333a7f24
+  specs:
+    moped (2.0.4)
+      bson (~> 2.2)
+      connection_pool (~> 2.0)
+      optionable (~> 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   remote: http://gems.github.com/
@@ -92,7 +101,7 @@ GEM
     colorize (0.7.5)
     columnize (0.9.0)
     commonjs (0.2.7)
-    connection_pool (2.1.2)
+    connection_pool (2.2.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     debug_inspector (0.0.2)
@@ -165,10 +174,6 @@ GEM
       mongoid (~> 4.0.0)
     mongoid_paranoia (0.1.2)
       mongoid (> 3)
-    moped (2.0.4)
-      bson (~> 2.2)
-      connection_pool (~> 2.0)
-      optionable (~> 0.2.0)
     multi_json (1.11.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -306,6 +311,7 @@ PLATFORMS
 DEPENDENCIES
   backbone-on-rails
   bootstrap-sass (= 2.3.2.0)
+  bson
   bson_ext
   byebug
   capistrano (~> 3.1)
@@ -325,6 +331,7 @@ DEPENDENCIES
   mongoid!
   mongoid-versioning
   mongoid_paranoia
+  moped!
   pry-rails
   rails (= 4.2.0)
   rserve-client
