@@ -114,6 +114,7 @@ GEM
     erb2haml (0.1.5)
       html2haml
     erubis (2.7.0)
+    excon (0.45.3)
     execjs (2.4.0)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
@@ -127,6 +128,9 @@ GEM
       haml (>= 4.0.6, < 5.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
+    heroku-api (0.3.18)
+      excon (~> 0.27)
+      multi_json (~> 1.8)
     hike (1.2.3)
     html2haml (2.0.0)
       erubis (~> 2.7.0)
@@ -314,6 +318,7 @@ DEPENDENCIES
   erb2haml
   font-awesome-rails
   haml-rails
+  heroku-api (= 0.3.18)
   jbuilder (~> 2.0)
   jquery-rails
   less-rails
